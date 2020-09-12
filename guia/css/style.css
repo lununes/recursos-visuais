@@ -35,7 +35,8 @@
   /* background-size: cover;
   position: relative; */
   height: 100vh;
-  background-image: url(../img/bg-header.jpg);
+  background-image: url(../img/bg-header.jpg); 
+  background-size:cover;
   /* background: var(--bg-header) !important; 
   background-position:center !important; 
   background-attachment:scroll !important; 
@@ -46,11 +47,11 @@
   background-repeat:no-repeat !important; */
 }
 
-@media (max-width:640px) {
+/* @media (max-width:640px) {
   .bg-header {
     background-attachment:initial !important; 
   }
-}
+} */
 
 .bg-topo {
   /* height: 25vh; */
