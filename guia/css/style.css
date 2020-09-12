@@ -37,7 +37,8 @@
   height: 100vh;
   background-attachment: fixed;
   background-size: cover;
-  background-image: var(--bg-header);
+  background: var(--bg-header);
+
 }
 
 .bg-topo {
