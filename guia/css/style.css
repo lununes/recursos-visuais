@@ -54,10 +54,10 @@
 .bg-topo {
   /* height: 25vh; */
   /* background-attachment: fixed; */
-  background-size: 100% 70%;
-  background-image: var(--bg-topo-mobile);
-  background-repeat:no-repeat;
-  background-position: center;
+  background-size: 100% 70% !important;
+  background-image: var(--bg-topo-mobile) !important;
+  background-repeat:no-repeat !important;
+  background-position: center !important;
 }
 
 @media (min-width:768px) {
