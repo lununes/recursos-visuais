@@ -30,21 +30,9 @@
 --------------------------------------------------------------*/
 
 .bg-header {
-  /* width: 100%; */
-   /*background: linear-gradient(45deg, #1de099, #1dc8cd);*/
-  /* background-size: cover;
-  position: relative; */
   height: 100vh;
-  background-image: var(--bg-header); /*url(../img/bg-header.jpg);*/ 
+  background-image: url(../img/bg-header.jpg);
   background-size:cover;
-  /* background: var(--bg-header) !important; 
-  background-position:center !important; 
-  background-attachment:scroll !important; 
-  -o-background-size:cover !important; 
-  -moz-background-size:cover !important; 
-  -webkit-background-size:cover !important
-  background-size:cover !important;
-  background-repeat:no-repeat !important; */
 }
 
 /* @media (max-width:640px) {
@@ -57,14 +45,14 @@
   /* height: 25vh; */
   /* background-attachment: fixed; */
   background-size: 100% 70%;
-  background-image: var(--bg-topo-mobile);
+  background-image: url(../img/bg-topo-mobile2.png); 
   background-repeat:no-repeat;
   background-position: center;
 }
 
 @media (min-width:768px) {
   .bg-topo {
-    background-image: var(--bg-topo);
+    background-image: url(../img/bg-topo.png);
     background-size: contain;
   }
 }
@@ -79,7 +67,7 @@
 .bg-section {background: var(--bg-section);}
 
 .bg-section2 {
-  background: var(--bg-section2);
+  background: url(../img/bg2.png);
   background-repeat:repeat-y;
 }
 
