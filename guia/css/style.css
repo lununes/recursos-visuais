@@ -35,14 +35,15 @@
   /* background-size: cover;
   position: relative; */
   height: 100vh;
-  background: var(--bg-header) !important; 
+  background-image: url(../img/bg-header.jpg);
+  /* background: var(--bg-header) !important; 
   background-position:center !important; 
   background-attachment:scroll !important; 
   -o-background-size:cover !important; 
   -moz-background-size:cover !important; 
   -webkit-background-size:cover !important
   background-size:cover !important;
-  background-repeat:no-repeat !important;
+  background-repeat:no-repeat !important; */
 }
 
 @media (max-width:640px) {
@@ -54,10 +55,10 @@
 .bg-topo {
   /* height: 25vh; */
   /* background-attachment: fixed; */
-  background-size: 100% 70% !important;
-  background-image: var(--bg-topo-mobile) !important;
-  background-repeat:no-repeat !important;
-  background-position: center !important;
+  background-size: 100% 70%;
+  background-image: var(--bg-topo-mobile);
+  background-repeat:no-repeat;
+  background-position: center;
 }
 
 @media (min-width:768px) {
