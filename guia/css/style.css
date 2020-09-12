@@ -35,9 +35,14 @@
   /* background-size: cover;
   position: relative; */
   height: 100vh;
-  background-attachment: fixed;
-  background-size: cover;
   background: var(--bg-header);
+  background-position:center; 
+  /* background-attachment:scroll;  */
+  -o-background-size:cover; 
+  -moz-background-size:cover; 
+  -webkit-background-size:cover; 
+  background-size:cover; 
+  background-repeat:no-repeat;
 
 }
 
