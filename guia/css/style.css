@@ -35,19 +35,19 @@
   /* background-size: cover;
   position: relative; */
   height: 100vh;
-  background: var(--bg-header);
-  background-position:center; 
-  background-attachment:scroll; 
-  -o-background-size:cover; 
-  -moz-background-size:cover; 
-  -webkit-background-size:cover; 
-  background-size:cover; 
-  background-repeat:no-repeat;
+  background: var(--bg-header) !important; 
+  background-position:center !important; 
+  background-attachment:scroll !important; 
+  -o-background-size:cover !important; 
+  -moz-background-size:cover !important; 
+  -webkit-background-size:cover !important
+  background-size:cover !important;
+  background-repeat:no-repeat !important;
 }
 
 @media (max-width:640px) {
   .bg-header {
-    background-attachment:initial;
+    background-attachment:initial !important; 
   }
 }
 
