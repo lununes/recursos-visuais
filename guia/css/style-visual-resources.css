@@ -2451,6 +2451,11 @@ Tabs
   border-color: transparent;
 }
 
+.abas .nav-tabs .nav-link:hover {
+  border-color: var(--laranja) var(--laranja) #fff;
+  color:var(--laranja);
+}
+
 .abas .nav-tabs .nav-item.show .nav-link,
 .abas .nav-tabs .nav-link.active {
   color: #fff;
@@ -2458,10 +2463,6 @@ Tabs
   border-color: var(--laranja) var(--laranja);
 }
 
- .abas .nav-tabs .nav-link:hover {
-  border-color: var(--laranja) var(--laranja) #fff;
-  color:var(--laranja);
-}
 
  .abas .nav-tabs .nav-link:focus,
  .abas .nav-tabs .nav-link:active {

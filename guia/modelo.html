@@ -70,7 +70,9 @@
       <nav id="nav-menu-container" class="float-right">
             <ul class="nav-menu">
               <li><a href="#" data-toggle="modal" data-target="#modal-apresentacao">Apresentação</a></li>
-              <li class="menu-has-children"><a href="#">Módulo 1</a>
+              <li class="menu-has-children">
+                <p class="d-none d-md-block pb-0 sf-with-ul">Módulo 1</p>
+                <a href="#" class="d-block d-md-none">Módulo 1</a>
                 <ul>
                   <li>
                     <h6>Povos indígenas no Brasil</h6>
@@ -81,7 +83,9 @@
                   <li><a href="modulo1/aula2.html">Aula 2: Organização do Substistema de Atenção à Saúde Indígena</a></li>
                 </ul>
               </li>
-              <li class="menu-has-children"><a href="#">Módulo 2</a>
+              <li class="menu-has-children">
+                <p class="d-none d-md-block pb-0 sf-with-ul">Módulo 2</p>
+                <a href="#" class="d-block d-md-none">Módulo 2</a>
                 <ul>
                   <li>
                     <h6>Vulnerabilidade dos povos indígena</h6>
@@ -92,7 +96,9 @@
                   <li><a href="modulo2/aula2.html">Aula 2: Perfil Epidemiológico e a Covid-19 nos povos indígenas </a></li>
                 </ul>
               </li>
-              <li class="menu-has-children"><a href="#">Módulo 3</a>
+              <li class="menu-has-children">
+                <p class="d-none d-md-block pb-0 sf-with-ul">Módulo 3</p>
+                <a href="#" class="d-block d-md-none">Módulo 3</a>
                 <ul>
                   <li>
                     <h6>Organização do trabalho e da assistência no subsistema de saúde</h6>
@@ -104,7 +110,9 @@
                   <li><a href="modulo3/aula3.html">Aula 3: Manejo Clínico da Covid-19</a></li>
                 </ul>
               </li>
-              <li class="menu-has-children"><a href="#">Módulo 4</a>
+              <li class="menu-has-children">
+                <p class="d-none d-md-block pb-0 sf-with-ul">Módulo 4</p>
+                <a href="#" class="d-block d-md-none">Módulo 4</a>
                 <ul>
                   <li>
                     <h6>Vigilância da Covid-19 em comunidades indígenas</h6>
@@ -118,7 +126,7 @@
               <li><a href='#' data-toggle="modal" data-target="#modal-bibliografia">Bibliografia</a></li>
               <li><a href='#' data-toggle="modal" data-target="#modal-creditos">Créditos</a></li>
               <li><a href="#" data-toggle="modal" data-target="#modal-material-complementar">Material Complementar</a></li>
-              <li><a href="../faq.html" target="_blank">FAQ</a></li>
+              <li><a href="faq.html" target="_blank">FAQ</a></li>
             </ul>
 
        
@@ -132,34 +140,37 @@
       <div class="container">
         <div class="row py-1 justify-content-center align-items-center text-center">
           <div class="col-6 col-md-4 p-0 d-flex flex-column order-1 order-md-1">
-              <div class="p-2 p-lg-0"><a href='modulo1/aula1.html' target='_blank'><i class="fas fa-home"></i> Módulo 1</a> > <a
+              <div class="p-0 p-lg-0"><a href='modulo1/aula1.html' target='_blank'><i class="fas fa-home"></i> Módulo 1</a> > <a
                 href='modulo1/aula2.html' target='_blank'>Aula 2</a></div>
           </div>
 
           <div class="col-12 col-md-4 p-0 d-flex flex-column order-3 order-md-2">
-            <div class="p-2 p-lg-0 topicos">
-              <p class="p-0 m-0">Tópicos</p>
-              <div class="topicos-content shadow text-left">
-                <p class="mb-2"><a href='#topico1'>Abas</a></p>
-                <p class="mb-2"><a href='#topico2'>Accordion</a></p>
-                <p class="mb-2"><a href='#topico3'>Cards de Comparação e Diferenciação</a></p>
-                <p class="mb-2"><a href='#topico4'>Destaques</a></p>
-                <p class="mb-2"><a href='#topico5'>Flipcard</a></p>
-                <p class="mb-2"><a href='#topico6'>Hover Boxes</a></p>
-                <p class="mb-2"><a href='#topico7'>Imagens Full</a></p>
-                <p class="mb-2"><a href='#topico8'>Lista</a></p>
-                <p class="mb-2"><a href='#topico9'>Modal</a></p>
-                <p class="mb-2"><a href='#topico10'>Slider</a></p>
-                <p class="mb-2"><a href='#topico11'>Tabela</a></p>
-                <p class="mb-2"><a href='#topico12'>Timeline Vertical</a></p>
-                <p class="mb-2"><a href='#topico13'>Timeline Zigzag</a></p>
-                <p class="mb-2"><a href='#topico14'>Timeline Horizontal</a></p>
+            <!-- <div class="p-1 p-lg-0 topicos"> -->
+
+              <div class="topicos p-1 p-lg-0 dropdown">
+                <p class="dropdown-toggle p-0 m-0" role="button" id="dropdownMenuLink" data-toggle="dropdown" data-display="static" aria-haspopup="true" aria-expanded="false">Tópicos</p>
+                <div class="topicos-content dropdown-menu shadow">
+                  <a class="dropdown-item" href='#topico1'>Abas</a>
+                  <a class="dropdown-item" href='#topico2'>Accordion</a>
+                  <a class="dropdown-item" href='#topico3'>Cards de Comparação e Diferenciação</a>
+                  <a class="dropdown-item" href='#topico4'>Destaques</a>
+                  <a class="dropdown-item" href='#topico5'>Flipcard</a>
+                  <a class="dropdown-item" href='#topico6'>Hover Boxes</a>
+                  <a class="dropdown-item" href='#topico7'>Imagens Full</a>
+                  <a class="dropdown-item" href='#topico8'>Lista</a>
+                  <a class="dropdown-item" href='#topico9'>Modal</a>
+                  <a class="dropdown-item" href='#topico10'>Slider</a>
+                  <a class="dropdown-item" href='#topico11'>Tabela</a>
+                  <a class="dropdown-item" href='#topico12'>Textos e imagens</a>
+                  <a class="dropdown-item" href='#topico13'>Timeline Vertical</a>
+                  <a class="dropdown-item" href='#topico14'>Timeline Zigzag</a>
+                  <a class="dropdown-item" href='#topico15'>Timeline Horizontal</a>
+                </div>
               </div>
-            </div>
           </div>
 
           <div class="col-6 col-md-4 p-0 d-flex flex-column order-2 order-md-3">
-            <div class="p-2 p-lg-0">
+            <div class="p-0 pb-1 p-lg-0">
               <div id="font-setting-buttons">
                 <div class="btn-group">
                   <a class="btn btn-outline-secondary decrease-me"><i class="fas fa-font"></i></a>

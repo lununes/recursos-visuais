@@ -208,7 +208,7 @@ b, strong {font-weight: 700;}
 #font-setting-buttons .btn-outline-secondary {
   border-color: var(--marrom);
   color:var(--marrom);
-  padding:0.2rem;
+  padding:0.1rem 0.2rem 0.2rem;
   font-weight: 0.8rem;
 }
 
@@ -218,7 +218,7 @@ b, strong {font-weight: 700;}
   color:#fff
 }
 
-#font-setting-buttons .btn-outline-secondary.reset-me {padding:0.2rem 0.4rem;}
+#font-setting-buttons .btn-outline-secondary.reset-me {padding:0.1rem 0.4rem;}
 
 
 #font-setting-buttons  .fa-font::after {font-size: 0.67em;}
@@ -401,9 +401,38 @@ b, strong {font-weight: 700;}
 
 #breadcrumb .nav-menu a:hover {color:var(--laranja-over);}
 
-#breadcrumb a {font-weight: 400;}
+#breadcrumb a {
+  font-weight: 400;
+  text-decoration:none;
+}
 
-#breadcrumb .topicos {
+#breadcrumb .topicos .topicos-content {
+  width:100%;
+  transform: none !important;
+  top: 30px !important;
+  border: 1px solid #e8edee;
+  overflow-x:hidden;
+  height: 60vh;
+}
+
+@media (min-width:992px){
+  #breadcrumb .topicos .topicos-content {
+    top: 26px !important;
+  }
+}
+
+#breadcrumb .topicos p::after {
+  content: "\f107";
+  font-family: "Font Awesome 5 Free" !important;
+  font-style: normal;
+  font-weight: 900;
+  margin-left:0.5rem;
+  border:none;
+  vertical-align: middle;
+}
+
+
+ #breadcrumb .topicos {
   position: relative;
   display: inline-block;
   border-top: 1px solid #e8edee;
@@ -412,7 +441,6 @@ b, strong {font-weight: 700;}
 #breadcrumb .topicos p {
   display: inline-block;
   cursor:pointer;
-
 }
 
 @media (min-width:768px) {
@@ -424,15 +452,8 @@ b, strong {font-weight: 700;}
 #breadcrumb .topicos p {
   font-weight: 600;
   color: var(--marrom);
-}
+} */
 
-#breadcrumb .topicos p::after {
-  content: "\f107";
-  font-family: "Font Awesome 5 Free" !important;
-  font-style: normal;
-  font-weight: 900;
-  margin-left:0.5rem;
-}
 
 #breadcrumb .topicos-content {
   background-color: #fff;
@@ -441,36 +462,36 @@ b, strong {font-weight: 700;}
   left:0;
   min-width: 160px;
   width:100%;
-  /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
   padding: 12px 16px;
   z-index: 1;
 }
 
-#breadcrumb .topicos-content p {
+#breadcrumb .topicos-content a {
   display:block;
-  height: 1.25rem;
 }
 
-#breadcrumb .topicos-content p::after {content: "";}
+#breadcrumb .topicos-content a::after {content: "";}
 
-#breadcrumb .topicos-content p a {
+#breadcrumb .topicos-content a {
   display: block;
   font-size: 0.8rem;
   color: var(--preto);
   font-weight: 400;
   font-style: normal;
+  padding:0.5rem;
 }
 
-#breadcrumb .topicos-content p a:hover {
+#breadcrumb .topicos-content a:hover {
   text-decoration: none;
   color:var(--laranja-over);
+  background:transparent;
 }
 
-#breadcrumb .topicos:hover .topicos-content {
+/* #breadcrumb .topicos:hover .topicos-content {
   display: block;
-  /* overflow-y: auto;
-  height: 300px; */
-}
+  overflow-y: auto;
+  height: 300px; 
+} */
 
 
 /* #breadcrumb #font-setting-buttons {
@@ -716,7 +737,8 @@ b, strong {font-weight: 700;}
 }
 
 /* Nav Menu Links, Botões call to action */
-.nav-menu a {
+.nav-menu a,
+.nav-menu p {
   padding: 0 8px 10px 8px;
   text-decoration: none;
   display: inline-block;
@@ -727,9 +749,13 @@ b, strong {font-weight: 700;}
   outline: none;
 }
 
-.nav-menu a:hover {color: var(--laranja-over);}
+.nav-menu p {padding-top:11px;}
 
-.nav-menu a:pressed {color: var(--laranja-pressed);}
+.nav-menu a:hover,
+.nav-menu p:hover {color: var(--laranja-over);}
+
+.nav-menu a:pressed,
+.nav-menu p:pressed {color: var(--laranja-pressed);}
 
 .nav-menu .cta-btn {
   border-color: var(--laranja-over);
