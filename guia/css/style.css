@@ -43,7 +43,12 @@
   -webkit-background-size:cover; 
   background-size:cover; 
   background-repeat:no-repeat;
-  
+}
+
+@media (max-width:640px) {
+  .bg-header {
+    background-attachment:initial;
+  }
 }
 
 .bg-topo {
