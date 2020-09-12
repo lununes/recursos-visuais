@@ -37,13 +37,13 @@
   height: 100vh;
   background: var(--bg-header);
   background-position:center; 
-  /* background-attachment:scroll;  */
+  background-attachment:scroll; 
   -o-background-size:cover; 
   -moz-background-size:cover; 
   -webkit-background-size:cover; 
   background-size:cover; 
   background-repeat:no-repeat;
-
+  
 }
 
 .bg-topo {
