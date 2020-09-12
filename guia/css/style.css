@@ -112,9 +112,9 @@ p {
   margin: 0 0 20px 0;
 }
 
-h1 {font-family: 'Montserrat', sans-serif;}
-
-h2, h3, h4, h5, h6 {
+h1, h2, h3 {font-family: 'Montserrat', sans-serif;}
+ 
+h4, h5, h6 {
   color:var(--marrom-pressed);
   font-family: 'Playfair Display', serif;
   font-weight: 700;
@@ -188,6 +188,14 @@ b, strong {font-weight: 700;}
   background: var(--laranja-over);
   color: #fff;
   border: 2px solid var(--laranja-over);
+}
+
+/*Nav Pills (FAQ)*/
+
+.nav-pills .nav-link.active, 
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: var(--laranja);
 }
 
 /* Botões de acessibilidade */
@@ -479,6 +487,7 @@ b, strong {font-weight: 700;}
   font-weight: 400;
   font-style: normal;
   padding:0.5rem;
+  white-space: normal;
 }
 
 #breadcrumb .topicos-content a:hover {
