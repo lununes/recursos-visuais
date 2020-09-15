@@ -4,38 +4,6 @@ f
 --------------------------------------------------------------*/
 
 :root {
-  --preto: #222;
-  /*Black*/
-  --marrom: #601848;
-  /*Purple*/
-  --main-color3: #2dc997;
-  /*Green*/
-  --laranja: #f07241;
-  /*Orange*/
-  --main-color5: #eff5f5;
-  /*Light Gray*/
-
-  --secondary-color1: #239872;
-  /*Darker Green*/
-
-  --link-color1: #601848;
-  /*Purple*/
-  --link-color-hover: #2dc997;
-  /*Green*/
-  --white-color: #fff;
-
-  --amareloIFHT: #F1C14D;
-  --amareloIFHT-over: #F1B523;
-  --amareloIFHT-pressed: #E5A914;
-
-  /*Serie 3*/
-  --laranja: #ef7216;
-  /*Orange*/
-  --laranja-over: #febf00;
-  /*Mustard*/
-  --laranja-pressed: #b2550f;
-  /*Bronze*/
-
       /* Cores */
       --preto: #222; /*Preto*/
       --marrom: #b2550f; /*Marrom*/
@@ -54,9 +22,7 @@ f
       --bg-header: url(../img/bg-header.jpg); 
       --bg-topo-mobile: url(../img/bg-topo-mobile2.png); 
       --bg-topo: url(../img/bg-topo.png);
-      --bg-section: rgba(255,244,181, 0.5); 
-  
-  
+      --bg-section: rgba(255,244,181, 0.5);  
 }
 
 /* -------------------------------- 
@@ -2061,8 +2027,6 @@ div[class*=item-box] h4 {
 
 }
 
-
-
 /* -------------------------------- 
 
 Lista Simples
@@ -2078,34 +2042,32 @@ Lista Simples
 }
 
 .obj-lista .list-group-item {
-  border: 1px solid #EFEFEF;
+  background:transparent;
+  border:transparent;
   border-radius: 6px;
-  margin-bottom: 10px;
-  box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.2);
+  /*margin-bottom: 10px;
+   box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.2);
   border: 1px solid #fafafa;
-  padding: 1.2rem 1.25rem;
+  padding: 1.2rem 1.25rem; */
+  padding: 0.8rem 1.25rem;
 }
+
 
 .obj-lista .list-group-item i {
   font-size: 30px;
   padding-right: 4px;
-  color: var(--main-color3);
+  color: var(--laranja);
   line-height: 0px;
 }
 
 .obj-lista .list-group-item i.icon-bullet {
   display: block;
-  width: 20px;
-  height: 20px;
+  width: 0.8rem;
+  height: 0.8rem;
   background: transparent url("../img/ic-list-bullet.svg") no-repeat 0 0;
   float: left;
   margin-right: 10px;
-  margin-top: 3px;
-}
-
-/*Série 3*/
-.serie3 .obj-lista .list-group-item i.icon-bullet {
-  background: transparent url("../img/ic-list-bullet-serie3.svg") no-repeat 0 0;
+  margin-top:0.3rem;
 }
 
 /* -------------------------------- 
