@@ -59,6 +59,7 @@
 }
 .icon-headphones:before {
   content: "\e910";
+  color: #ff8831;
 }
 .icon-cogs:before {
   content: "\e995";
@@ -1292,14 +1293,6 @@ Lista Simples
   border: 1px solid #fafafa;
   padding: 1.2rem 1.25rem; */
   padding: 0.8rem 1.25rem;
-}
-
-
-.obj-lista .list-group-item i {
-  font-size: 30px;
-  padding-right: 4px;
-  color: var(--laranja);
-  line-height: 0px;
 }
 
 .obj-lista .list-group-item i.icon-bullet {
